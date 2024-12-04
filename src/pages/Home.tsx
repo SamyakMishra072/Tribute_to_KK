@@ -9,7 +9,7 @@ export function Home() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="https://wallpapercave.com/wp/wp8047620.jpg"
+            src="https://wallpapercave.com/wp/wp8047562.jpg"
             alt="KK performing on stage"
             className="w-full h-full object-cover"
           />

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kk-tribute.netlify.app/sitemap.xml

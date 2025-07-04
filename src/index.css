@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --maroon: #660000;
+  --gold: #FFD700;
+  --cream: #FFF8E7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--cream);
+  color: #333;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.gradient-overlay {
+  background: linear-gradient(135deg, rgba(102, 0, 0, 0.8), rgba(102, 0, 0, 0.4));
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.glassmorphism {
+  background: rgba(255, 248, 231, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.musical-note {
+  position: absolute;
+  font-size: 2rem;
+  color: var(--gold);
+  opacity: 0.3;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.masonry-grid {
+  columns: 1;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .masonry-grid { columns: 2; }
+}
+
+@media (min-width: 768px) {
+  .masonry-grid { columns: 3; }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid { columns: 4; }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}

@@ -113,9 +113,9 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2024 KK Tribute. Made with{' '}
+              © 2025 KK Tribute. Made with{' '}
               <Heart className="inline h-4 w-4 text-red-400 mx-1" />
-              by a devoted fan.
+              by Samyak Mishra.
             </p>
             <p className="text-gray-400 text-sm">
               This is a fan-made tribute website to honor KK's legacy.

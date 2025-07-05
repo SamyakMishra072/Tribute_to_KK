@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       {/* Background Video/Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://i.postimg.cc/jjnSRVsY/wp8047620-kk-singer-wallpapers.jpg"
+          src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Concert background"
           className="w-full h-full object-cover"
         />

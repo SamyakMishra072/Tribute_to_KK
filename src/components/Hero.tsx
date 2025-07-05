@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       {/* Background Video/Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://github.com/SamyakMishra072/Tribute_to_KK/blob/main/9700524.jpg"
+          src="https://postimg.cc/phCX8tsQ"
           alt="Concert background"
           className="w-full h-full object-cover"
         />
